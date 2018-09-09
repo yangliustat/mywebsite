@@ -2,7 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`)
+
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -57,15 +58,15 @@ enableGitInfo = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Yang Liu"
+  role = "PhD student @ UConn Stats Department"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "University of Connecticut", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "Yang_2.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "test@example.org"
   address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
@@ -246,10 +247,10 @@ enableGitInfo = false
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+   [[params.social]]
+     icon = "cv"
+     icon_pack = "ai"
+     link = "cv/Syllabus Section 01.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
